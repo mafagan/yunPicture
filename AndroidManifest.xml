@@ -23,7 +23,6 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.yunpicture.ImageShowActivity"></activity>
-        <activity android:name="com.example.yunpicture.ModifiedView"></activity>
     </application>
 
 </manifest>

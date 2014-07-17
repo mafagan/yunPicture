@@ -19,7 +19,7 @@ public class ListItemAdapter extends BaseAdapter {
 	
 	public ListItemAdapter(Context context){
 		listViewInflater = LayoutInflater.from(context);
-		
+		this.init();
 	}
 	
 	private void init(){
