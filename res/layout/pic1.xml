@@ -3,25 +3,139 @@
     android:id="@+id/LinearLayout1"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#000000"
-    android:orientation="horizontal"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@layout/bitmap_bg">
+    <!-- android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin" >
-	
-
-    
-    <ListView 
-        android:id="@+id/filterlv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    
+    android:paddingTop="@dimen/activity_vertical_margin" > -->
+       
+   
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/dd" />
+        android:src="@drawable/dd" 
+        android:padding="10dp"/>
     
-    
+   	<HorizontalScrollView 
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:fillViewport="true"
+   	    android:padding="0dp"
+   	    android:background="@layout/bitmap_bg"
+   	    >
+     <LinearLayout 
+         android:id="@+id/filterLayout"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         
+         <LinearLayout 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             >
+         <ImageButton 
+             android:id="@+id/btn_filter_default"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+             android:background="@drawable/icon"
+             />
+         <TextView 
+             android:id="@+id/tv_default"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:text="原片"
+             android:textColor="#ffffff"
+             />
+         </LinearLayout>
+         
+         <LinearLayout 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             >
+         <ImageButton 
+             android:id="@+id/btn_filter_bw"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+             android:background="@drawable/icon"
+             />
+         <TextView 
+             android:id="@+id/tv_bw"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:text="黑白"
+             />
+         </LinearLayout>
+         
+         <LinearLayout 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             >
+         <ImageButton 
+             android:id="@+id/btn_filter_wave"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+             android:background="@drawable/icon"
+             />
+         <TextView 
+             android:id="@+id/tv_wave"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:text="正弦扭曲"
+             />
+         </LinearLayout>
+         
+         <LinearLayout 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             >
+         <ImageButton 
+             android:id="@+id/btn_filter_textwatermark"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+             android:background="@drawable/icon"
+             />
+         <TextView 
+             android:id="@+id/tv_textwatermark"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:text="文字水印"
+             />
+         </LinearLayout>
+         
+         <LinearLayout 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             >
+         <ImageButton 
+             android:id="@+id/btn_filter_imgwatermark"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+             android:background="@drawable/icon"
+             />
+         <TextView 
+             android:id="@+id/tv_imgwatermark"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:text="图片水印"
+             />
+         </LinearLayout>
+     </LinearLayout>
+    </HorizontalScrollView>
 </LinearLayout>
