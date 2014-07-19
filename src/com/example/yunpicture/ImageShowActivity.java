@@ -3,6 +3,8 @@ package com.example.yunpicture;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
@@ -13,6 +15,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -28,7 +31,9 @@ public class ImageShowActivity extends Activity {
 //	final TextView tv_wave = (TextView) findViewById(R.id.tv_wave);
 //	final TextView tv_textWatermark = (TextView) findViewById(R.id.tv_textwatermark);
 //	final TextView tv_imgWatermark = (TextView) findViewById(R.id.tv_imgwatermark);
-
+	Bitmap sourceBitmap;
+	Bitmap thumbnailBitmap;
+	
 	private static String[] textData = new String[]{
 		"text #1",
 		"text #2",
@@ -41,9 +46,13 @@ public class ImageShowActivity extends Activity {
 		
 		setContentView(R.layout.pic1);
 		
-		//ListView filterListView = (ListView) findViewById(R.id.filterlv);
-		//ListItemAdapter filterAdapter = new ListItemAdapter(this);
-		//filterListView.setAdapter(filterAdapter);
+		Intent intent = getIntent();
+		if (intent != null) {
+			sourceBitmap = intent.getParcelableExtra("bitmap");
+			ImageView tempView = (ImageView) findViewById(R.id.imageView1);
+			tempView.setImageBitmap(sourceBitmap);
+		}
+		
 		this.setTextDefaultColor();
 		final TextView tv_default = (TextView) findViewById(R.id.tv_default);
 		tv_default.setTextColor(Color.WHITE);
