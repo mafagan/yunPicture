@@ -5,6 +5,7 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
@@ -31,7 +32,7 @@ public class ImageShowActivity extends Activity {
 //	final TextView tv_wave = (TextView) findViewById(R.id.tv_wave);
 //	final TextView tv_textWatermark = (TextView) findViewById(R.id.tv_textwatermark);
 //	final TextView tv_imgWatermark = (TextView) findViewById(R.id.tv_imgwatermark);
-	Bitmap sourceBitmap;
+	String sourcePath;
 	Bitmap thumbnailBitmap;
 	
 	private static String[] textData = new String[]{
@@ -48,9 +49,19 @@ public class ImageShowActivity extends Activity {
 		
 		Intent intent = getIntent();
 		if (intent != null) {
-			sourceBitmap = intent.getParcelableExtra("bitmap");
+			sourcePath = intent.getStringExtra("path");
+			
+			Bitmap bitmap=null;
+	        try{ 
+	        	bitmap = BitmapFactory.decodeFile(sourcePath);
+	        } catch (Exception e) {
+	        	e.printStackTrace();
+	        } catch (Error e) {
+	        	e.printStackTrace();
+	        }
+			
 			ImageView tempView = (ImageView) findViewById(R.id.imageView1);
-			tempView.setImageBitmap(sourceBitmap);
+			tempView.setImageBitmap(bitmap);	
 		}
 		
 		this.setTextDefaultColor();
