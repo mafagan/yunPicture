@@ -1,1 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T02:42:54.440Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="15.9.6" etag="los0cxVfsyhXZBLNfDuA" type="github"><diagram id="zCSFOiPsygh_4vqS5TpW">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-07T12:31:04.677Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="zJKp42Lbtl3WW6FEr6OB" version="16.1.2" type="github">
+  <diagram id="zCSFOiPsygh_4vqS5TpW" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oox1cBLgCy_c9QqVeIJp-1" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="100" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="oox1cBLgCy_c9QqVeIJp-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="oox1cBLgCy_c9QqVeIJp-1">
+          <mxGeometry x="45" y="90" width="10" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="oox1cBLgCy_c9QqVeIJp-19" value="发起RPC请求" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="oox1cBLgCy_c9QqVeIJp-18" parent="oox1cBLgCy_c9QqVeIJp-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oox1cBLgCy_c9QqVeIJp-2" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="70" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="oox1cBLgCy_c9QqVeIJp-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="oox1cBLgCy_c9QqVeIJp-2">
+          <mxGeometry x="45" y="80" width="10" height="80" as="geometry" />
+        </mxCell>
+        <object label="" id="oox1cBLgCy_c9QqVeIJp-8">
+          <mxCell style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="oox1cBLgCy_c9QqVeIJp-7" parent="1" source="oox1cBLgCy_c9QqVeIJp-1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="220" y="250" as="sourcePoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="oox1cBLgCy_c9QqVeIJp-9" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="oox1cBLgCy_c9QqVeIJp-7" parent="1" target="oox1cBLgCy_c9QqVeIJp-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oox1cBLgCy_c9QqVeIJp-16" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="70" width="20" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="oox1cBLgCy_c9QqVeIJp-20" value="获得返回的数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="oox1cBLgCy_c9QqVeIJp-18" parent="1" target="oox1cBLgCy_c9QqVeIJp-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
