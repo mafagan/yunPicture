@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T13:00:56.822Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Z60ImfksyU0hX0VWSdKa" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-07T13:03:03.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="3m-UPScjGId7r10DoKUK" version="16.1.2" type="github">
   <diagram id="zCSFOiPsygh_4vqS5TpW" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,26 +86,19 @@
           <mxGeometry x="45" y="260" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oox1cBLgCy_c9QqVeIJp-23" value="tdbank" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="630" y="70" width="100" height="600" as="geometry" />
+          <mxGeometry x="630" y="70" width="100" height="640" as="geometry" />
         </mxCell>
         <mxCell id="oox1cBLgCy_c9QqVeIJp-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="oox1cBLgCy_c9QqVeIJp-23">
-          <mxGeometry y="350" width="10" height="80" as="geometry" />
+          <mxGeometry y="300" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oox1cBLgCy_c9QqVeIJp-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="oox1cBLgCy_c9QqVeIJp-23">
           <mxGeometry x="50.5" y="120" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oox1cBLgCy_c9QqVeIJp-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="oox1cBLgCy_c9QqVeIJp-23">
-          <mxGeometry x="50.5" y="450" width="10" height="80" as="geometry" />
+          <mxGeometry x="50.5" y="390" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oox1cBLgCy_c9QqVeIJp-50" value="10.IP对应连接" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="oox1cBLgCy_c9QqVeIJp-48" parent="oox1cBLgCy_c9QqVeIJp-23">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-60" y="526" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oox1cBLgCy_c9QqVeIJp-49" value="9.检查是否有缓存连接，若无构建连接" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="oox1cBLgCy_c9QqVeIJp-48" parent="oox1cBLgCy_c9QqVeIJp-23">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-60" y="450" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="oox1cBLgCy_c9QqVeIJp-51" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="oox1cBLgCy_c9QqVeIJp-23">
+          <mxGeometry x="50.5" y="490" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oox1cBLgCy_c9QqVeIJp-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="200" y="250" width="10" height="40" as="geometry" />
@@ -114,7 +107,7 @@
           <mxGeometry x="520" y="70" width="100" height="660" as="geometry" />
         </mxCell>
         <mxCell id="oox1cBLgCy_c9QqVeIJp-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="oox1cBLgCy_c9QqVeIJp-35">
-          <mxGeometry x="45" y="340" width="10" height="320" as="geometry" />
+          <mxGeometry x="45" y="300" width="10" height="320" as="geometry" />
         </mxCell>
         <mxCell id="oox1cBLgCy_c9QqVeIJp-39" value="7.指标数据发送" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="oox1cBLgCy_c9QqVeIJp-38" parent="1" source="oox1cBLgCy_c9QqVeIJp-21">
           <mxGeometry relative="1" as="geometry">
@@ -138,7 +131,31 @@
         </mxCell>
         <mxCell id="oox1cBLgCy_c9QqVeIJp-43" value="8.获取随机上报IP" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="oox1cBLgCy_c9QqVeIJp-42" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="580" y="420" as="sourcePoint" />
+            <mxPoint x="590" y="380" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="570" y="380" />
+              <mxPoint x="590" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oox1cBLgCy_c9QqVeIJp-49" value="9.检查是否有缓存连接，若无构建连接" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="oox1cBLgCy_c9QqVeIJp-48" parent="1" source="oox1cBLgCy_c9QqVeIJp-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="520" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oox1cBLgCy_c9QqVeIJp-50" value="10.IP对应连接" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="oox1cBLgCy_c9QqVeIJp-48" parent="1" target="oox1cBLgCy_c9QqVeIJp-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oox1cBLgCy_c9QqVeIJp-52" value="11.往连接中写入指标数据" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="oox1cBLgCy_c9QqVeIJp-51" parent="1" source="oox1cBLgCy_c9QqVeIJp-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oox1cBLgCy_c9QqVeIJp-53" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=0.5;entryY=0.831;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="oox1cBLgCy_c9QqVeIJp-51" parent="1" target="oox1cBLgCy_c9QqVeIJp-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="706" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
