@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T14:01:21.510Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="1uM6foAjA9Uqh9JAOgCW" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-07T14:02:59.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="I0yePEmdmYDgOkwpf0V8" version="16.1.2" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2522" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -27,6 +27,32 @@
         </mxCell>
         <mxCell id="2AClWOA5RidFeWTNfvVQ-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-4">
           <mxGeometry x="50" y="340" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2AClWOA5RidFeWTNfvVQ-59" value="配置加载" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;startArrow=none;" edge="1" parent="7baba1c4bc27f4b0-4" source="2AClWOA5RidFeWTNfvVQ-60">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50.5" y="150" as="sourcePoint" />
+            <mxPoint x="50" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120.5" y="150" />
+              <mxPoint x="120.5" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2AClWOA5RidFeWTNfvVQ-60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-4">
+          <mxGeometry x="45.5" y="140" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2AClWOA5RidFeWTNfvVQ-65" value="target.json reload" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;startArrow=none;" edge="1" parent="7baba1c4bc27f4b0-4" source="7baba1c4bc27f4b0-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="55.5" y="420" as="sourcePoint" />
+            <mxPoint x="50" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="121" y="420" />
+              <mxPoint x="121" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2AClWOA5RidFeWTNfvVQ-68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-4">
+          <mxGeometry x="45" y="410" width="10" height="110" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-5" value="tip task" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="400" y="80" width="100" height="740" as="geometry" />
